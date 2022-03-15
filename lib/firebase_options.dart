@@ -37,33 +37,4 @@ class DefaultFirebaseOptions {
     );
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD_Z06CPNeamjJ1yZk9aT1OzZQy1CwZSXI',
-    appId: '1:1049082975132:web:3d83a418fe1b6641a16e59',
-    messagingSenderId: '1049082975132',
-    projectId: 'muajup',
-    authDomain: 'muajup.firebaseapp.com',
-    databaseURL: 'https://muajup.firebaseio.com',
-    storageBucket: 'muajup.appspot.com',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC0iRQBqZsIiLW7GtKXWiO79l6enY2zlOI',
-    appId: '1:1049082975132:android:e88e1ef7d293d5c8a16e59',
-    messagingSenderId: '1049082975132',
-    projectId: 'muajup',
-    databaseURL: 'https://muajup.firebaseio.com',
-    storageBucket: 'muajup.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCnXo0ca0DbZocrA8WlpTG50jr4eMsUmC4',
-    appId: '1:1049082975132:ios:336877ac12b3902ea16e59',
-    messagingSenderId: '1049082975132',
-    projectId: 'muajup',
-    databaseURL: 'https://muajup.firebaseio.com',
-    storageBucket: 'muajup.appspot.com',
-    iosClientId: '1049082975132-j1o8js10ilj4dt8p0mpvvp710ve9fbo3.apps.googleusercontent.com',
-    iosBundleId: 'com.example.myriverpod',
-  );
 }
